@@ -37,6 +37,11 @@ const NewTransactionForm = () => {
     setFormData(initialState);
   };
 
+  // useEffect(() => {
+  //   createTransaction();
+  //   setFormData(f => ({ ...f, amount: e.target.value }));
+  // }, [createTransaction, []]);
+
   useEffect(() => {
     if (segment) {
       if (segment.intent.intent === 'add_expense') {
