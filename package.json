@@ -8,12 +8,14 @@
     "@material-ui/lab": "^4.0.0-alpha.61",
     "@speechly/react-client": "^2.2.4",
     "@speechly/react-ui": "^2.7.5",
-    "chart.js": "^4.4.0",
+    "@types/styled-components": "^5.1.34",
+    "chart.js": "^4.4.2",
     "prop-types": "^15.8.1",
     "react": "^16.12.0",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^16.12.0",
     "react-scripts": "^5.0.1",
+    "styled-components": "^6.1.11",
     "uuid": "^9.0.1"
   },
   "scripts": {
